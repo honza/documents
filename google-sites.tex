@@ -1,0 +1,154 @@
+\documentclass[letterpaper]{report}
+%\usepackage[pass]{geometry}
+\usepackage{fontspec}
+\setmainfont [Ligatures={Common,TeX}, Numbers={OldStyle}]{Baskerville}
+
+\begin{document}
+
+\title{Advantages of Sphinx over Google Sites}
+\author{Honza Pokorny}
+\date{November 2011}
+\maketitle
+
+\section*{Introduction}
+    
+    It is my pleasure to present this report to SheepDogInc's management. In
+    this report, I will argue that Google Sites is an inefficient tool for
+    teams of developers and will suggest that we move to use a tool called
+    Sphinx. This report assumes a general understanding of and familiarity with
+    Google Sites. 
+
+\section*{Problems with Google Sites}
+
+    Let us first outline some of the major issues that arise when working with
+    Google Sites.
+
+    \subsection*{Proprietary technology}
+
+        Google Sites is a hosted solution and does not provide the developer
+        with its source code. Therefore, the developer cannot be certain that
+        the solution will exist in the future. Google is known for periodically
+        deprecating their
+        APIs\footnote{http://googlecode.blogspot.com/2011/05/spring-cleaning-for-some-of-our-apis.html}.
+        By continuing to use Google Sites, SheepDogInc is trusting that Google
+        will keep the product alive indefinitely. If Google Sites were to be
+        deprecated today, SheepDogInc developers would be force spend
+        considerable amount of time porting the content to a different
+        solution.
+
+    \subsection*{Limited customizability}
+        
+        Google Sites is targeted at small businesses and users with minimal
+        computer skills. As a result, the customization options available are
+        very limited. Custom CSS and Javascript cannot be incorporated into a theme 
+        template\footnote{http://en.wikipedia.org/wiki/Google\_Sites\#Limitations}.
+        If SheepDogInc is interested in branding their product in any way, the
+        use of Google Sites should be discouraged.
+
+    \subsection*{Professionalism}
+
+        SheepDogInc is a professional web development company. As such, hosting
+        the documentation for a SheepDogInc product on Google Sites may appear
+        unprofessional to Internet-savvy users and potential customer.
+
+\section*{Sphinx primer}
+
+    \subsection*{Introduction}
+
+        Sphinx is a widely popular tool that makes it easy to create
+        intelligent and beautiful documentation. It was originally created for
+        the Python programming language documentation.
+
+        Sphinx documentation is written in plain text files that are easy to
+        read. Once the documentation is ready for publishing, Sphinx compiles
+        it to a number of formats such as HTML and PDF. Any customizations to
+        the presentation of the final document are done independently of the
+        content by creating a custom Sphinx theme. Sphinx themes are
+        collections of CSS, Javascript and images.
+
+    \subsection*{Adoption}
+
+        Sphinx is used by hundreds of open source projects, including the
+        Python programming language and  Django. It is the industry standard
+        when it comes to documenting Python projects. Sphinx is widely used and
+        is in constant development.
+
+    \subsection*{License}
+
+        Sphinx is an open source project licensed under the terms of the BSD
+        license. This allows the developer to use, study, modify and distribute
+        the software free of charge. 
+
+\section*{Key benefits}
+
+    \subsection*{Version Control}
+
+        The source files for Sphinx-produced documentation can be
+        version-controlled using git and kept in the same repository as the
+        product or project. The developer does not need to remember how to look
+        up the appropriate Google Site; he can just open the source file on his
+        computer.
+
+        Moreover, when a developer checks in a new feature he or she can submit
+        a few paragraphs of documentation in the same pull request. This is
+        common practice in large open source projects where a patch will not be
+        accepted without
+        documentation\footnote{https://docs.djangoproject.com/en/1.3/internals/contributing/\#patch-style}.
+
+        All benefits of version control apply here. Multiple developers can
+        easily collaborate on the same piece of documentation. New releases of
+        the documentation can be tagged. Every single change to the
+        documentation is recorded and can be reverted to later.
+
+    \subsection*{Plain text files}
+
+        In general, programmers prefer text files over proprietary document
+        formats such as Microsoft Word. The developer can certain that he will
+        always be able to open a text file. Developers spend most of their time
+        editing text files. Their text editors or IDEs are heavily customized
+        to make editing of text as efficient as possible.
+
+    \subsection*{Style and presentation}
+
+        The problem with WYSIWYG\footnote{http://en.wikipedia.org/wiki/WYSIWYG}
+        editors is that one can easily create graphically inconsistent
+        documents. Heading sizes and levels may not match. The color of warning
+        text may be of two different shades of red. Spacing between paragraphs
+        may differ.
+
+        With Sphinx, everything is consistent. The result is a clean,
+        consistent HTML document that appears polished and professional.
+
+    \subsection*{PDF generation}
+
+        Most Internet users prefer to print large documents off because long
+        periods of reading on an LCD screen hurts their eyes. Sphinx creates a
+        professional quality PDF file without any changes to the source files.
+        This generated PDF file can be made available for download on the
+        documentation page.
+
+\section*{Potential drawbacks}
+
+    \subsection*{Learning curve}
+    
+        Each developer will be required to learn the basics of the system. They
+        will need to learn how to create headings, paragraphs, lists, links and
+        style basic texts. This is estimated to take less than ten minutes of
+        each person's time.
+
+        The actual conversion of the document will be highly automated as part
+        of the continuous deployment process already in place for the given
+        project.
+
+    \subsection*{Access}
+
+        Given the nature of the software that produces the HTML output, it may
+        be impossible for a non-developer in the organization to make simple
+        changes. For instance, project managers may be required to contact a
+        developer to correct a misspelling found in the text.
+
+\section*{Summary}
+
+    Some cool summary
+
+\end{document}
