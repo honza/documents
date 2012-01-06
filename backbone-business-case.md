@@ -31,7 +31,11 @@ Pros
     * pushState
     * LocalStorage
     * templating
-
+* Benefits over GWT
+    * Pure Javascript (no compilation step during development)
+    * It makes more sense to invest in learning Javascript over Java.
+    * Easier debugging
+    * A lot less code
 
 Cons
 ----
@@ -44,7 +48,9 @@ Links
 -----
 
 * [Backbone fundamentals][2]
+* [Backbone tastypie for Django][3]
 
 
 [1]: http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html
 [2]: https://github.com/addyosmani/backbone-fundamentals
+[3]: https://github.com/PaulUithol/backbone-tastypie
