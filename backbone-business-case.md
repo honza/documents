@@ -44,6 +44,8 @@ Pros
     * Backbone annotated source code ~5,000 words
     * At Sheepdog, we write Javascript a lot more than Java (gTrax vs all other
       projects).
+    * GWT is made by Google. They like to kill things and I have certain doubts
+      about their attention to detail (e.g. Apps Script, Calendar API).
 
 Cons
 ----
