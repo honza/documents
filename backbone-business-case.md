@@ -40,6 +40,8 @@ Pros
     * Editor agnostic
     * GWT & Django?
     * It's not magic
+    * Basic GWT stock watcher tutorial ~13,000 words
+    * Backbone annotated source code ~5,000 words
 
 Cons
 ----
