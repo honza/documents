@@ -32,14 +32,8 @@ Pros
     * LocalStorage
     * templating
 * Benefits over GWT
-    * Pure Javascript (no compilation step during development)
-    * It makes more sense to invest in learning Javascript over Java.
-    * Easier debugging
-    * A lot less code
+    * Pure Javascript
     * jQuery eco-system
-    * Editor agnostic
-    * GWT & Django?
-    * It's not magic
 
 Cons
 ----
