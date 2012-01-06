@@ -36,6 +36,10 @@ Pros
     * It makes more sense to invest in learning Javascript over Java.
     * Easier debugging
     * A lot less code
+    * jQuery eco-system
+    * Editor agnostic
+    * GWT & Django?
+    * It's not magic
 
 Cons
 ----
