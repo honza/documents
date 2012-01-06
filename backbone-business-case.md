@@ -42,6 +42,8 @@ Pros
     * It's not magic
     * Basic GWT stock watcher tutorial ~13,000 words
     * Backbone annotated source code ~5,000 words
+    * At Sheepdog, we write Javascript a lot more than Java (gTrax vs all other
+      projects).
 
 Cons
 ----
