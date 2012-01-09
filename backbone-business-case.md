@@ -22,6 +22,10 @@ Introduction
 * Allows for easy loading of bootstrapped models & collections
 * An API for custom events
 * Automatic binding of event handlers in Views
+* Coffeescript classes compatible - we've been playing around with coffeescript
+  more and more lately and it's nice to know that our MVC solution is
+  compatible with it - if we ever chose to use coffeescript officially.
+    * This makes for super-easy inheritance
 
 Baked-in
 --------
